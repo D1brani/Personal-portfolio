@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Elgo's Portfolio</title>
+    <title>
+        Elgos Portfolio
+    </title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
     <style>
         /* General Styles */
         body {
@@ -13,8 +16,9 @@
             margin: 0;
             padding: 0;
             scroll-behavior: smooth;
-            background-image: url('https://extendthemes.com/demos/mesmerize-pro-portfolio/wp-content/uploads/sites/16/2016/06/cropped-background-2726039-6x4.jpg');
+            background-image: url(https://w0.peakpx.com/wallpaper/166/572/HD-wallpaper-modern-material-design-and-abstract-background-in-high-resolution-minimalist-simple-minimal.jpg);
         }
+
         header {
             background: rgba(0, 0, 0, 0.85);
             color: #ffd700;
@@ -59,6 +63,7 @@
             margin: 3rem auto;
             width: 85%;
             box-shadow: 0 8px 15px rgb(253, 251, 250);
+            
         }
 
         section h1 {
@@ -98,99 +103,112 @@
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(210, 224, 11, 0.836);
         }
-
         #contact h1 {
             text-align: center;
             margin-bottom: 20px;
         }
-
         #contact form {
             display: flex;
             flex-direction: column;
         }
-
         #contact input, #contact textarea, #contact button {
             margin: 10px 0;
             padding: 10px;
             border: 1px solid #ffffff;
             border-radius: 5px;
             font-size: 16px;
+            
         }
-
         #contact button {
             background-color: #fffb00;
             color: rgb(14, 9, 9);
             border: #f4f4f4;
             cursor: pointer;
+            
+            
+            
+            
         }
-
         #contact button:hover {
             background-color: #ffd104;
+            
+            
+    
         }
-
+        
         footer p {
             margin: 0;
         }
 
+       
         #box-container {
-            display: flex;
-            justify-content: space-around;
-            align-items: flex-start;
-            gap: 1px;
-            padding: 1px;
-            margin: auto;
-            max-width: 90%;
-        }
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 1px;
+    padding: 1px;
+    margin: auto;
+    max-width: 90%;
+}
 
-        .box {
-            background-color: rgba(243, 228, 22, 0.8);
-            padding: 20px;
-            border-radius: 15px;
-            text-align: center;
-            flex: 1;
-            max-width: 45%;
-            max-height: 50%;
-        }
+.box {
+    background-color: rgba(243, 228, 22, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    flex: 1;
+    max-width: 45%; 
+    max-height: 50%;
+}
 
-        .box img {
-            width: 100%;
-            max-width: 300px;
-            height: 200px;
-            object-fit: cover;
-            border-radius: 10px;
-            cursor: pointer;
-            transition: transform 0.3s ease-in-out;
-        }
+.box img {
+    width: 100%;
+    max-width: 300px; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
 
-        .box img:hover {
-            transform: scale(1.7);
-        }
+.box img:hover {
+    transform: scale(1.7); 
+}
 
-        .box p {
-            font-size: 1.2rem;
-            color: #333;
-            margin-top: 10px;
-        }
+.box p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 10px;
+}
+.box iframe {
 
-        .box iframe {
-            width: 100%;
-            height: auto;
-            display: block;
-            margin: 0 auto;
-        }
+width: 100%;  
+    height: auto;
+    max-width: auto;  
+    max-height: auto;
+    display: block;  
+    margin: 0 auto;  
+    
 
-        #image-modal {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 90%;
-            height: 90%;
-            background: rgba(204, 180, 180, 0.8);
-            justify-content: center;
-            align-items: center;
-            z-index: 100;
-        }
+}
+
+
+#image-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+    background: rgba(204, 180, 180, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+
+    
+    
     </style>
 </head>
 <body>
@@ -208,37 +226,60 @@
     </header>
 
     <main>
+        <!-- Home Section -->
         <section id="home">
             <h1>Welcome to My Portfolio</h1>
             <p>Explore my journey, projects, and more!</p>
         </section>
 
+        <!-- About Me Section -->
         <section id="about">
+            
             <h1>About Me</h1>
             <p>I'm Elgo Muglica, a 21-year-old student at the University of Beder.</p>
-            <p><a href="cv/CV.pdf" download>Download My CV</a></p>
+            <div>
+            <P>
+                <a href="https://www.linkedin.com/in/elgo-m-306278346/" target="_blank">
+                   
+                </a>
+                <a href="https://github.com/D1brani" target="_blank">
+                   
+                </a>
+            </p>
+            <p><a href="CV.pdf" download>Download My CV</a></p>
+        </div>
         </section>
+    
 
+
+        
         <section id="projects">
-            <h1>My Projects</h1>
-            <div id="box-container">
-                <div class="box">
-                    <img src="images/Screenshot_195029.png" alt="Project 1">
-                    <p>A bakery project in Tirana.</p>
-                </div>
-                <div class="box">
-                    <img src="images/Screenshot_9-1-2025.jpeg" alt="Project 2">
-                    <p>A restaurant at the beach of Durres.</p>
-                </div>
-            </div>
-        </section>
-
+          <h1>Projektet e Mia</h1>
+          <section id="box-container">
+              <div class="box">
+                  <img src="Screenshot 2025-01-16 195029.png" alt="Project 1" onclick="enlargeImage(this)">
+                  <p> nje furre buke ne tirane  </p>
+              </div>
+              <div class="box">
+                  <img src="c:/Users/Boli/Downloads/Screenshot_9-1-2025_23211_.jpeg" alt="Project 2" onclick="enlargeImage(this)">
+                  <p>nje restorant ne plazhin e durrsit</p>
+              </div>
+          </section>
+      </section>
+      
+        
+      
+      
         <section id="education">
             <h1>Education & Experience</h1>
             <p>Bachelor's in TIK, University of Beder.</p>
             <p>Internship: AlfaWeb - Junior Web Developer.</p>
+            <P>computer service  </P>
+            <P>costumer service </P>
         </section>
 
+        <!-- Contact Section -->
+       <section>
         <section id="contact">
             <h1>Contact Me</h1>
             <form id="contact-form">
@@ -248,18 +289,46 @@
                 <button type="submit">Send</button>
             </form>
         </section>
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script>
+            // Initialize EmailJS
+            emailjs.init('3upZRRzlg28579PEa'); 
+        
+            // Handle form submission
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+        
+                // Collect form data
+                const formData = {
+                    name: document.getElementById('name').value,
+                    email: document.getElementById('email').value,
+                    message: document.getElementById('message').value,
+                };
+        
+                // Send the email using EmailJS
+                emailjs.send('service_v1qxqik', 'template_8xxrinkD', formData)
+                    .then(function(response) {
+                        alert('Message sent successfully! Thank you for contacting me.');
+                    }, function(error) {
+                        alert('Failed to send the message. Please try again later.');
+                        console.error('EmailJS Error:', error);
+                    });
+            });
+        </script>
+       </section>
+        
 
+        
         <section id="blog">
             <h1>Blog</h1>
             <p>Latest blog post: Best horror movie of 2024</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/cvt-mauboTc" frameborder="0" allowfullscreen></iframe>
+           
+                <p><em>Johnny Carson rival Jack Delroy hosts a syndicated talk show 'Night Owls' that has long been a trusted companion to insomniacs around the country. However, ratings for the show have plummeted since the tragic death of Jack's beloved wife. Desperate to turn his fortunes around, on October 31st, 1977, Jack plans a Halloween special like no other—unaware he is about to unleash evil into the living rooms of America.</em></p>
+                <section id="box-container">
+                <!-- Embedded YouTube video -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/cvt-mauboTc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
         </section>
     </main>
-
-    <footer>
-        <p>&copy; 2024 Elgo Muglica. All rights reserved.</p>
-    </footer>
-</body>
-</html>
 
 
