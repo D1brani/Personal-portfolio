@@ -111,60 +111,67 @@
             display: flex;
             flex-direction: column;
         }
-           .form-row {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-        justify-content: center;
-    }
+          .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
 
-    .form-input {
-        flex: 1;
-        min-width: 250px;
-        padding: 10px;
-        border: 1px solid #ddd;
-        border-radius: 5px;
-        background-color: #f9f9f9;
-        font-size: 16px;
-    }
+.form-input {
+    flex: 1;
+    min-width: 300px; /* Slightly larger for better usability */
+    padding: 12px; /* Increased padding for a more spacious feel */
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Softer edges for a modern design */
+    background-color: #ffffff; /* Brighter background for contrast */
+    font-size: 16px;
+    color: #333; /* Darker text for readability */
+    transition: box-shadow 0.3s, border-color 0.3s;
+}
 
-    .form-input:focus {
-        border-color: #ffd700;
-        outline: none;
-        box-shadow: 0 0 8px rgba(255, 215, 0, 0.7);
-    }
+.form-input:focus {
+    border-color: #ffd700;
+    outline: none;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+}
 
-    .form-textarea {
-        width: 100%;
-        margin-top: 20px;
-        padding: 10px;
-        border: 1px solid #ddd;
-        border-radius: 5px;
-        background-color: #f9f9f9;
-        font-size: 16px;
-        resize: vertical;
-    }
+.form-textarea {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+    font-size: 16px;
+    color: #333;
+    resize: vertical;
+    transition: box-shadow 0.3s, border-color 0.3s;
+}
 
-    .form-textarea:focus {
-        border-color: #ffd700;
-        outline: none;
-        box-shadow: 0 0 8px rgba(255, 215, 0, 0.7);
-    }
+.form-textarea:focus {
+    border-color: #ffd700;
+    outline: none;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+}
 
-    .form-button {
-        margin-top: 20px;
-        padding: 10px 20px;
-        background-color: #ffd700;
-        color: #000;
-        border: none;
-        border-radius: 5px;
-        font-size: 16px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-    }
+.form-button {
+    margin-top: 20px;
+    padding: 12px 25px; /* Enhanced padding for a balanced button */
+    background-color: #ffd700;
+    color: #333; /* Slightly darker for better contrast */
+    border: none;
+    border-radius: 8px;
+    font-size: 18px; /* Larger font for emphasis */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
 
-    .form-button:hover {
-        background-color: #ffa500;}
+.form-button:hover {
+    background-color: #ffa500;
+}
             
             
             
